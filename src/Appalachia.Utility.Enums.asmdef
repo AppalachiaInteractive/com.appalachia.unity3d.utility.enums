@@ -1,0 +1,14 @@
+{
+	"name": "Appalachia.Utility.Enums",
+    "rootNamespace": "Appalachia.Utility.Enums",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
