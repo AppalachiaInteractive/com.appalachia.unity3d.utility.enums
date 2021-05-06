@@ -7,7 +7,7 @@ using System.Linq;
 
 #endregion
 
-namespace Internal.Core.Collections.Generic
+namespace Appalachia.Utility.Enums
 {
     /// <summary>
     ///     Iterable collection of an enums values.

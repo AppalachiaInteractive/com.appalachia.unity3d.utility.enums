@@ -8,7 +8,7 @@ using System.Reflection;
 
 #endregion
 
-namespace Internal.Core.Collections.Generic
+namespace Appalachia.Utility.Enums
 {
     /// <summary>
     ///     Helper for accessing the values of an enum.
