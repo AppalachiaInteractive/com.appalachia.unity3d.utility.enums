@@ -1,14 +1,23 @@
 ```
-/c/Users/Chris/com.appalachia/appa/cmd/print/"Changes".sh
-Something went wrong...
-[Error: ENOENT: no such file or directory, open 'C:\Users\Chris\com.appalachia\node_modules\figlet\fonts\"3D-ASCII".flf'] {
-  errno: -4058,
-  code: 'ENOENT',
-  syscall: 'open',
+ ________   ___  ___   ________   ________    ________   _______    ________      
+|\   ____\ |\  \|\  \ |\   __  \ |\   ___  \ |\   ____\ |\  ___ \  |\   ____\     
+\ \  \___| \ \  \\\  \\ \  \|\  \\ \  \\ \  \\ \  \___| \ \   __/| \ \  \___|_    
+ \ \  \     \ \   __  \\ \   __  \\ \  \\ \  \\ \  \  ___\ \  \_|/__\ \_____  \   
+  \ \  \____ \ \  \ \  \\ \  \ \  \\ \  \\ \  \\ \  \|\  \\ \  \_|\ \\|____|\  \  
+   \ \_______\\ \__\ \__\\ \__\ \__\\ \__\\ \__\\ \_______\\ \_______\ ____\_\  \ 
+    \|_______| \|__|\|__| \|__|\|__| \|__| \|__| \|_______| \|_______||\_________\
+                                                                      \|_________|
 ```
+
 ## Releasing
 | Hash | Date | Author | Changes |
 |------|------|--------|---------|
-| 6453b20 | 2021-05-06 | Chris Schubert | Project template setup |
-| af2ada3 | 2021-05-03 | Chris Schubert | Initializing organization repository for project. |
-| 8616020 | 2021-05-03 | Chris Schubert | Added README.md |
+| 64e3c7a0c2965481ca2a6a4327cb7fb402b80053 | 2021-07-28 | Chris Schubert | updates |
+
+
+ ## Tag: `v0.1.1`
+| Hash | Date | Author | Changes |
+|------|------|--------|---------|
+| 6453b205290b9988793d0355c55d076e8805451b | 2021-05-06 | Chris Schubert | Project template setup |
+| af2ada39f7e17401fc3da916332e04b5dc4e287c | 2021-05-03 | Chris Schubert | Initializing organization repository for project. |
+| 861602076dfa0716a4f2dc99c4faa25b8704dacc | 2021-05-03 | Chris Schubert | Added README.md |
