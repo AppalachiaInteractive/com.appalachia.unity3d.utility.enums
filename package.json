@@ -4,6 +4,9 @@
   "version": "0.1.1",
   "unity": "2020.3",
   "description": "Helpers for accessing enums dynamically.  Strongly-typed iteration, filtering of obsolete values, etc.",
+    "library": "!!library!!",
+  "csrootnamespace": "!!csrootnamespace!!",
+  "tagline": "!!tagline!!",
   "keywords": [
     "Scripts",
     "Tool"
@@ -19,7 +22,7 @@
     "type": "git"
   },
   "publishConfig": {
-    "registry": "http://localhost:4873/"
+    "registry": "http://34.138.227.71:4873/"
   },
   "scripts": {
     "preversion": "bash ~/com.appalachia/appa/appa package unity3d preversion",
