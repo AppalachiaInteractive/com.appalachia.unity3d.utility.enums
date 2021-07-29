@@ -4,9 +4,6 @@
   "version": "0.1.2",
   "unity": "2020.3",
   "description": "Helpers for accessing enums dynamically.  Strongly-typed iteration, filtering of obsolete values, etc.",
-  "library": "!!library!!",
-  "csrootnamespace": "!!csrootnamespace!!",
-  "tagline": "!!tagline!!",
   "keywords": [
     "Scripts",
     "Tool"
