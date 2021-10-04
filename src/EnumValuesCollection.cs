@@ -32,7 +32,7 @@ namespace Appalachia.Utility.Enums
 
         private static HashSet<T> ToHashSet(IEnumerable<T> source)
         {
-            return new HashSet<T>(source);
+            return new(source);
         }
 
         private HashSet<T> _exclusions;
@@ -47,7 +47,9 @@ namespace Appalachia.Utility.Enums
                 {
                     _exclusions = new HashSet<T>();
                     var exc = _exclusions;
-                    _values = EnumValueManager.GetAllValues<T>().Where(v => !exc.Contains(v)).ToArray();
+                    _values = EnumValueManager.GetAllValues<T>()
+                                              .Where(v => !exc.Contains(v))
+                                              .ToArray();
                 }
 
                 return _values;

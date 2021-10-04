@@ -5,8 +5,9 @@ namespace Appalachia.Utility.Enums
 {
     public static class DictionaryExtensions
     {
-
-        public static void PopulateEnumKeys<TKey, TValue>(this IDictionary<TKey, TValue> dictionary, Func<TKey, TValue> creator)
+        public static void PopulateEnumKeys<TKey, TValue>(
+            this IDictionary<TKey, TValue> dictionary,
+            Func<TKey, TValue> creator)
             where TKey : Enum
         {
             var keys = EnumValueManager.GetAllValues<TKey>();
@@ -14,7 +15,7 @@ namespace Appalachia.Utility.Enums
             for (var i = 0; i < keys.Length; i++)
             {
                 var key = keys[i];
-                
+
                 if (!dictionary.ContainsKey(key))
                 {
                     dictionary.Add(key, creator(key));
@@ -29,7 +30,7 @@ namespace Appalachia.Utility.Enums
             var keys = EnumValueManager.GetAllValues<TKey>();
 
             for (var i = 0; i < keys.Length; i++)
-            {                
+            {
                 var key = keys[i];
 
                 if (!dictionary.ContainsKey(key))

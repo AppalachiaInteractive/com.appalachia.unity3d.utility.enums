@@ -78,9 +78,13 @@ namespace Appalachia.Utility.Enums
                                        t =>
                                        {
                                            var field = fieldInfos.First(
-                                               e => (e.DeclaringType == type) && (e.Name == t.ToString())
+                                               e => (e.DeclaringType == type) &&
+                                                    (e.Name == t.ToString())
                                            );
-                                           var attributes = field.GetCustomAttributes(typeof(ObsoleteAttribute), false);
+                                           var attributes = field.GetCustomAttributes(
+                                               typeof(ObsoleteAttribute),
+                                               false
+                                           );
 
                                            return attributes.Length == 0;
                                        }
@@ -134,9 +138,13 @@ namespace Appalachia.Utility.Enums
                                        t =>
                                        {
                                            var field = fieldInfos.First(
-                                               e => (e.DeclaringType == type) && (e.Name == t.ToString())
+                                               e => (e.DeclaringType == type) &&
+                                                    (e.Name == t.ToString())
                                            );
-                                           var atts = field.GetCustomAttributes(typeof(ObsoleteAttribute), false);
+                                           var atts = field.GetCustomAttributes(
+                                               typeof(ObsoleteAttribute),
+                                               false
+                                           );
 
                                            return atts.Length == 0;
                                        }
