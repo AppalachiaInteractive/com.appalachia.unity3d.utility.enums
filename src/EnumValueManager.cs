@@ -52,7 +52,7 @@ namespace Appalachia.Utility.Enums
             {
                 _lookupWithObsolete = new Dictionary<string, object>();
             }
-
+            
             var type = typeof(T);
             var fieldInfos = type.GetFields(BindingFlags.Public | BindingFlags.Static);
 
